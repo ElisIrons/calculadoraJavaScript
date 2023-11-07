@@ -1,36 +1,83 @@
+* {
+    color: var(--fontColor);
+    font-family: helvetica;
+  }
+
+body {
+   background: var(--bg);
+    }
+
+:root {
+    --white: #ffffff;
+    --black: #000000;
+}
+
+.light-theme {
+    --bg: var(--white);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--white);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
+
+.btn-modo {
+    position: absolute;
+    top:20px;
+    left:250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.btn-modo:focus {
+    outline-style: none;
+}
+
 .calculadora {
-        margin-top: 250px;
-        border: solid 1px rgb(34, 137, 128);
-        padding: 20px;
-        background-color: #2E2E2E;
-        border-radius: 10px;
-        box-shadow: 1px 1px 5px #000;
-      }
+    margin-top: 250px;
+    border: solid 1px rgb(34, 137, 128);
+    padding: 35px;
+    padding-right: 20px;
+    background-color: #2E2E2E;
+    border-radius: 10px;
+    box-shadow: turquoise;
+  }
 
-      .btn {
-        width: 60px;
-        height: 50px;
-        margin: 5px;
-        box-shadow: 1px 1px 1px turquoise;
-      }
+  .btn {
+    width: 60px;
+    height: 50px;
+    margin: 5px;
+    box-shadow: 1px 1px 1px turquoise;
+  }
 
-      .clear {
-        width: 130px;
-      }
+  .clear {
+    width: 130px;
+  }
 
-      .enter {
-        height: 110px;
-      }
+  .enter {
+    height: 110px;
+  }
 
-      .zero {
-        width: 130px;
-      }
+  .zero {
+    width: 130px;
+  }
 
-      .resultado {
-        text-align: right;
-        font-size: 20px;
-        margin-top: 10px;
-        margin-bottom: 20px;
-        border: solid 1px #000;
-        box-shadow: 1px 1px 1px #000;
-      }
+  .resultado {
+    text-align: right;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: -10px;
+    border: solid 1px turquoise;
+    box-shadow: turquoise;
+}
