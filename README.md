@@ -6,7 +6,6 @@ Realizado no curso Desenvolvimento Web da Udemy com implementação de conhecime
 
 
 
-https://github.com/ElisIrons/calculadoraJavaScript/assets/86434261/f3baa19d-d51e-4f79-8044-f030bb2eefde
 
 
 
